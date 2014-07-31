@@ -1,0 +1,60 @@
+npm install
+npm install express
+npm install express3-handlebars
+
+
+
+Cannot connect to the configuration database.Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\brad>%programfiles%\iisnode\setupsamples.bat
+'C:\Program' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\brad>cd ..
+
+C:\Users>cd ..
+
+C:\>programfiles
+'programfiles' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>cd programfiles
+The system cannot find the path specified.
+
+C:\>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>cd Program Files
+
+C:\Program Files>cd iisnode
+
+C:\Program Files\iisnode>setupsamples.bat
+Installation of node.js samples for IIS 7
+This script must be run with administrative privileges.
+This installer will perform the following tasks:
+* ensure that the IIS_IUSRS group has read and write rights to "C:\Program Files
+\iisnode\www"
+* delete the "Default Web Site/node" web application if it exists
+* add a new site "Default Web Site/node" to IIS with physical path pointing to "
+C:\Program Files\iisnode\www"
+This script does not provide means to revert these actions. If something fails i
+n the middle you are on your own.
+Press ENTER to continue or Ctrl-C to terminate.
+Press any key to continue . . .
+Ensuring IIS_IUSRS group has full permissions for "C:\Program Files\iisnode\www"
+...
+processed file: C:\Program Files\iisnode\www
+Successfully processed 1 files; Failed processing 0 files
+...success
+Ensuring the "Default Web Site/node" is removed if it exists...
+ERROR ( message:Must use exact identifer for APP object with verb DELETE. )
+...success
+Creating IIS site "Default Web Site/node" with node.js samples...
+APP object "Default Web Site/node" added
+VDIR object "Default Web Site/node" added
+...success
+INSTALLATION SUCCESSFUL. Check out the samples at http://localhost/node.
+Press any key to continue . . .
+C:\Program Files\iisnode>
